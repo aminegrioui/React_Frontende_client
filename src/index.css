@@ -235,10 +235,15 @@ nav {
 */
 .styled-table {
   border-collapse: collapse;
-  margin: 25px 0;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 170px;
+  margin-left: 80px;
   font-size: 0.9em;
   font-family: sans-serif;
   min-width: 400px;
+  float: right;
+  padding: 25px 50px 75px 100px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 

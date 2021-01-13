@@ -1,7 +1,11 @@
 import ComponentList from './Component/componentList'
+import FrontendHeaderComponent from './Component/FrontendHeaderComponent'
 function App() {
-  return (
-    <ComponentList></ComponentList>
+  return (<div>
+             <FrontendHeaderComponent> </FrontendHeaderComponent>
+          <ComponentList></ComponentList>
+        </div>
+          
   );
 }
 
